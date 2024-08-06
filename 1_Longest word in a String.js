@@ -4,7 +4,7 @@
 // Q: write a function findlongestword that takes a string as input and returns the longest word in the string.If there are multiple longest words, return the first one encountered.
 
 //* Constraints:
-
+                    
 //? The input string may contain alphabetic characters, digits,spaces,and punctuation.
 //? The input string is non-empty.
 //? The input string may contain multiple words separated by spaces.

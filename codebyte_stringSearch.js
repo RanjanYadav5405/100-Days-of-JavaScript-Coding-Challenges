@@ -3,14 +3,17 @@ function findWordWithMostRepeats(words) {
     let result = '';
 
     for (const word of words) {
+        console.log(word)
         const count = {};
         let repeats = 0;
 
         for (const char of word.toLowerCase()) {
+            // console.log(char)
             count[char] = (count[char] || 0) + 1;
         }
 
         repeats = Object.values(count).filter(v => v > 1).length;
+        console.log(repeats)
 
         if (repeats > maxRepeats) {
             maxRepeats = repeats;

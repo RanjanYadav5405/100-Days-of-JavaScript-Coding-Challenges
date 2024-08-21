@@ -7,7 +7,7 @@
 // Example usage:
 
 const removeDuplicates =(arr) =>{
-    let a = new Set(arr)
+    let a = [...new Set(arr)]
     return a
 }
 

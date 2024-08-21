@@ -27,4 +27,4 @@ const LongestCharacter = (str) =>{
 
 
 
-console.log(LongestCharacter("My Name is Ranjan Yadav From Kathmndu Ramayana"))
+console.log(LongestCharacter("My Name is Ranjan Yadav From Kathmndu Ramayana")) // Kathmndu

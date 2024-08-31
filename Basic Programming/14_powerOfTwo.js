@@ -34,7 +34,5 @@ const isPower0fTwo = (n) => {
           return n>0 && (n & (n-1)) ==0
 }
 
-
-
 console. log(isPower0fTwo (8)); // Output: true
 console. log(isPower0fTwo(7)); // Output: false
